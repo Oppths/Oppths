@@ -64,9 +64,3 @@
 
 
 
-Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
-Header always set X-Frame-Options "DENY"
-Header always set X-Content-Type-Options "nosniff"
-Header always set Referrer-Policy "strict-origin-when-cross-origin"
-Header always set Permissions-Policy "microphone 'none'; geolocation 'none'"
-Header always set Content-Security-Policy "script-src 'self**
